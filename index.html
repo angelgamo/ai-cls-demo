@@ -52,7 +52,7 @@
         </div>
         <canvas id="video-canvas"></canvas>
     </div>
-    <script src="Build/demo.loader.js"></script>
+    <script src="Build/demo2.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -64,9 +64,9 @@
             canvas.style.height = window.innerHeight + "px";
             
             createUnityInstance(document.querySelector("#unity-canvas"), {
-                dataUrl: "Build/demo.data.unityweb",
-                frameworkUrl: "Build/demo.framework.js.unityweb",
-                codeUrl: "Build/demo.wasm.unityweb",
+                dataUrl: "Build/demo2.data.unityweb",
+                frameworkUrl: "Build/demo2.framework.js.unityweb",
+                codeUrl: "Build/demo2.wasm.unityweb",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "ArIsdin",
                 productName: "Demo",
