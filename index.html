@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
-    <title>Unity WebGL Player | Demo</title>
+    <title>Unity WebGL Player | ARisdin</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <style>
         html{
@@ -52,7 +52,7 @@
         </div>
         <canvas id="video-canvas"></canvas>
     </div>
-    <script src="Build/demo2.loader.js"></script>
+    <script src="Build/ARIsdin.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -64,13 +64,13 @@
             canvas.style.height = window.innerHeight + "px";
             
             createUnityInstance(document.querySelector("#unity-canvas"), {
-                dataUrl: "Build/demo2.data.unityweb",
-                frameworkUrl: "Build/demo2.framework.js.unityweb",
-                codeUrl: "Build/demo2.wasm.unityweb",
+                dataUrl: "Build/ARIsdin.data.unityweb",
+                frameworkUrl: "Build/ARIsdin.framework.js.unityweb",
+                codeUrl: "Build/ARIsdin.wasm.unityweb",
                 streamingAssetsUrl: "StreamingAssets",
-                companyName: "ArIsdin",
-                productName: "Demo",
-                productVersion: "0.4.0",
+                companyName: "Metaspai",
+                productName: "ARisdin",
+                productVersion: "1.0.0",
                 //webglContextAttributes: { "preserveDrawingBuffer": true },
                 // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                 // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
